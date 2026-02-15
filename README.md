@@ -1,2 +1,33 @@
-# breast-cancer-detection-matlab
-MATLAB implementation of Gini Index based Decision Tree for Breast Cancer Diagnosis.
+# Breast Cancer Detection with Decision Trees (MATLAB) 🧬
+
+In this project, I explored Supervised Learning algorithms by building a Decision Tree classifier to distinguish between Malignant and Benign tumors. The goal was to implement the Gini Impurity index logic using MATLAB's statistical toolbox.
+
+⚙️ Key Implementations:
+Dynamic File Handling: Instead of hardcoding filenames, I wrote a script that automatically detects and loads .csv or .data files in the directory.
+
+Data Preprocessing: The code automatically cleans unnecessary columns (like IDs) and prepares the Feature/Target matrices.
+
+Optimized Model: Used fitctree with Pruning enabled to prevent overfitting and visualize the decision nodes clearly.
+
+Visual Analytics: Generates a full Decision Tree graph and a Confusion Matrix to evaluate True/False Positives.
+
+📊 Model Performance
+Since the script uses a randomized 70/30 Train-Test split to simulate real-world variance:
+
+Typical Accuracy: 92% - 96% (Varies slightly per run).
+
+🛠️ Requirements
+
+MATLAB
+
+Statistics and Machine Learning Toolbox
+
+▶️ How to Run
+
+Download or clone this repository.
+
+Place the dataset file (.csv or .data) in the same folder as the MATLAB script.
+
+Open MATLAB and set the Current Folder to the project directory.
+
+Run the script:
